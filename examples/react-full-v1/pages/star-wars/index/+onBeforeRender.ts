@@ -7,6 +7,7 @@ import { filterMoviesData, getStarWarsMovies, getTitle } from './getStarWarsMovi
 const onBeforeRender: OnBeforeRenderAsync = async (pageContext): ReturnType<OnBeforeRenderAsync> => {
   await sleep(700) // Simulate slow network
   const movies = await getStarWarsMovies()
+  debugger // LA_TEMP
   return {
     pageContext: {
       pageProps: {
