@@ -16,10 +16,13 @@ async function onRenderHtml(pageContext) {
     )
   )
 
-  return escapeInject`<!DOCTYPE html>
-    <html>
-      <body>
-        <div id="page-view">${viewHtml}</div>
-      </body>
-    </html>`
+  // LA_TEMP
+  const html = `<!DOCTYPE html>
+  <html>
+    <body>
+      <div id="page-view">%HTML%</div>
+    </body>
+  </html>`
+  const templateStrings = html.split('%HTML%')
+  return escapeInject(templateStrings, viewHtml)
 }
