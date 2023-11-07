@@ -7,7 +7,7 @@ const root = __dirname
 
 export default {
   build: {
-    outDir: `/dist`
+    outDir: `/`
   },
   plugins: [
     vike({
