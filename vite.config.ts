@@ -7,7 +7,7 @@ const root = __dirname
 
 export default {
   build: {
-    outDir: `${root}/dist/nested`
+    outDir: `${root}`
   },
   plugins: [
     vike({
