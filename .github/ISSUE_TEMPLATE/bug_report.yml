@@ -1,7 +1,0 @@
-name: "💥 Bug Report"
-description: Report a bug.
-labels: ["bug :boom:"]
-body:
-  - type: textarea
-    attributes:
-      label: Description

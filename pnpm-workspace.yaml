@@ -1,7 +1,0 @@
-packages:
-  - 'vike/'
-  - 'docs/'
-  - 'boilerplates/'
-  - 'boilerplates/*'
-  - 'examples/*'
-  - 'test/*'
